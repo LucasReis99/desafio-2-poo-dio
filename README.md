@@ -1,4 +1,28 @@
-<h1> Desafio: Aprenda na Prática Programação Orientada a Objetos</h1>
+# Realização do desafio
+
+A proposta do desafio era praticar os conceitos fundamentais da Programação Orientada a Objetos (POO) utilizando a linguagem Java. Para isso, foi apresentado um cenário onde deveríamos modelar um sistema de Bootcamp, que inclui cursos, mentorias e desenvolvedores. O objetivo era aplicar os pilares da POO (Abstração, Encapsulamento, Herança e Polimorfismo) na modelagem e implementação desse sistema.
+
+A primeira etapa foi a modelagem do domínio do Bootcamp, identificando suas entidades principais (Bootcamp, Curso, Mentoria e Dev) e seus atributos e métodos. Em seguida, implementamos essas classes em Java, garantindo que cada uma refletisse sua respectiva entidade do domínio.
+
+Durante a implementação, identificamos algumas melhorias e correções necessárias:
+
+<strong>	1.</strong> Encapsulamento dos atributos: Garantimos que os atributos das classes fossem encapsulados, ou seja, acessados apenas por meio de métodos getters e setters. Isso promove o princípio de encapsulamento, tornando os atributos privados e controlando seu acesso externo.
+
+<strong>	2.</strong> Validação de dados: Adicionamos validações nos métodos setters para garantir a consistência dos dados. Por exemplo, na classe Curso, verificamos se a carga horária é positiva antes de atribuí-la. Isso ajuda a manter a integridade dos objetos e evitar valores inválidos.
+
+<strong>	3.</strong> Adição de novos métodos: Criamos novos métodos conforme necessário para atender aos requisitos do sistema. Por exemplo, na classe Bootcamp, adicionamos métodos para adicionar conteúdos e inscrever desenvolvedores. Isso facilita a interação com as entidades do sistema e melhora a legibilidade do código.
+
+<strong>	4.</strong> Uso adequado dos atributos: Certificamos-nos de que todos os atributos declarados fossem utilizados de alguma forma no código. Isso evita advertências do compilador e garante que nenhum dado seja subutilizado.
+
+<strong>	5.</strong> Melhorias na lógica de negócios: Em alguns casos, ajustamos a lógica de negócios para torná-la mais clara e eficiente. Por exemplo, na classe Dev, simplificamos o método progredir() para lidar com a lista de conteúdos inscritos de forma mais direta.
+
+Essas alterações foram realizadas com o objetivo de garantir que o sistema estivesse corretamente modelado e implementado, seguindo os princípios e melhores práticas da Programação Orientada a Objetos. Ao final, conseguimos desenvolver um sistema de Bootcamp funcional e bem estruturado em Java, aplicando os conceitos aprendidos durante o desafio.
+
+________________________________________________________________________________________________________________________________
+
+
+
+#### Desafio: Aprenda na Prática Programação Orientada a Objetos</h1>
 
 <p align="center"> 📜 <a href="https://academiapme-my.sharepoint.com/:p:/g/personal/camila_cavalcante_dio_me/EaXyYOjBaFpZjkxhexMo5EcBKMEEAI5t5aHlsTjnBQJlUw?e=nxdB6C"> SLIDES APRESENTADO NO PROJETO </a> 📜 </P>
 <p> Sejam bem-vindos ao desafio: <strong>APRENDENDO NA PRÁTICA O PARADIGMA DE ORIENTAÇÃO A OBJETOS.</strong><br>Desafio este que tive a honra de co-criar com a plataforma de cursos online <strong><a href="https://web.digitalinnovation.one/">DIGITAL INNOVATION ONE</a></strong> 💛🧡 e disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.<br>
